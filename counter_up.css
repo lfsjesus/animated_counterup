@@ -1,0 +1,29 @@
+body {
+    box-sizing:border-box !important;
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    height:100vh !important;
+    overflow:hidden !important;
+    margin:0 !important;
+}
+
+.counter-container {
+    display:flex !important;
+    flex-direction:column !important;
+    justify-content:center !important;
+    text-align:center !important;
+    margin:40px 70px !important;
+    font-family:Arial !important;
+    font-weight:bold !important;
+}
+
+.counter { font-size:80px !important; }
+
+#plus:after { content:"+" !important; }
+
+@media (max-width: 580px) {
+  body {
+    flex-direction: column;
+  }
+}
